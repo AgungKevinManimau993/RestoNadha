@@ -6,7 +6,7 @@
 /**
 * URL base, jika di upload ke hosting, perhatikan http/https, karena akan berpengaruh
 */
-$homeBase = 'http://localhost/Nadha-Resto/';
+$homeBase = 'https://nadha-restokupang.herokuapp.com/';
 
 /**
 * Site name (nama situs web)
