@@ -6,27 +6,32 @@
 /**
 * Database server (cth : localhost)
 */
-$dbServer = 'localhost';
+$dbServer = 'ec2-52-86-116-94.compute-1.amazonaws.com';
+
+/**
+* Database port (cth : 8888)
+*/
+$dbPort = 5432;
 
 /**
 * Database user
 */
-$dbUser = 'root';
+$dbUser = 'bmsdyrtrkmdlll';
 
 /**
 * Database password
 */
-$dbPassword = '';
+$dbPassword = '180bd3f1e7bd56082cd4bad13c38832c76da338b47e9cb0d8734ff9137c27553';
 
 /**
 * Database name
 */
-$dbName = 'dbs_nadha_resto_prod';
+$dbName = 'd35j372no93fvq';
 
 /**
 * Database driver
 */
-$dbDriver = 'mysqli';
+$dbDriver = 'pgsql';
 
 /**
 * Query builder
@@ -43,6 +48,7 @@ $update = 'UPDATE ';
 
 define('DB_DRIVER',$dbDriver);
 define('DB_SERVER',$dbServer);
+define('DB_PORT',$dbPort);
 define('DB_USER',$dbUser);
 define('DB_PASSWORD',$dbPassword);
 define('DB_NAME',$dbName);
